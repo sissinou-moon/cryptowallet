@@ -58,11 +58,9 @@ The app uses Supabase for user authentication and data storage:
 **Documentation**: [Supabase Docs](https://supabase.io/docs)
 
 ### Alchemy | GetBlock.io
-Alchemy is used to interact with Ethereum and TON blockchains:
+Alchemy is used to interact with Ethereum blockchains and GetBlock.io for TON blockchains:
 - **Wallet Operations**: Send and receive tokens.
 - **Get Transaction History**: Retrieve past transactions.
-
-**Documentation**: [Alchemy Docs](https://docs.alchemy.com)
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
@@ -78,6 +76,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 - Thanks to [Flutter](https://flutter.dev) for the amazing framework.
 - Thanks to [Supabase](https://supabase.io) for the backend services.
-- Thanks to [Marqeta](https://marqeta.com) for the virtual card API.
-- Thanks to [Alchemy](https://alchemy.com) for the blockchain API services.
+- Thanks to [Alchemy](https://getblock.io) for the blockchain API services.
 
