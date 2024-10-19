@@ -24,7 +24,7 @@ The **Crypto Wallet App** is a mobile application developed with Flutter that al
 - Alchemy API access for Ethereum and TON blockchain interactions
 - GetBlock.io API access for TON blockchain interactions
 
-## Data structured
+## Data structure
 ```bash
 wallet : {
     “mnemonic”: [],
