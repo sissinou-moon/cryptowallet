@@ -19,8 +19,29 @@ The **Crypto Wallet App** is a mobile application developed with Flutter that al
 - Flutter SDK
 - Dart SDK
 - Supabase account
+- tonutils 'package'
+- web3dart 'package'
 - Alchemy API access for Ethereum and TON blockchain interactions
 - GetBlock.io API access for TON blockchain interactions
+
+## Data structured
+```bash
+wallet : {
+    “mnemonic”: [],
+    “tokens”: {
+        “ethereum”: {
+            “address”: ......,
+            “balance”:0.0,
+             “privateKey”: ......,
+        }
+        “the-open-network”: {
+            “address”: ......,
+            “balance”:0.0,
+             “privateKey”: ......,
+        }
+    }
+}
+```
 
 ### Installation
 1. **Clone the repository**:
