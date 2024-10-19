@@ -21,6 +21,7 @@ The **Crypto Wallet App** is a mobile application developed with Flutter that al
 - Supabase account
 - tonutils 'package'
 - web3dart 'package'
+- CoinGecko API to get realtime price or any info related to user tokens
 - Alchemy API access for Ethereum and TON blockchain interactions
 - GetBlock.io API access for TON blockchain interactions
 
@@ -61,9 +62,9 @@ wallet : {
     ```plaintext
     SUPABASE_URL=your_supabase_url
     SUPABASE_ANON_KEY=your_supabase_anon_key
-    MARQETA_APPLICATION_TOKEN=your_marqeta_application_token
-    MARQETA_ADMIN_TOKEN=your_marqeta_admin_token
+    COINGECKO=your_coingecko_api
     ALCHMEY_API_KEY=your_alchemy_api_key
+    GETBLOCK=your_getblock_api
     ```
 
 4. **Run the app**:
