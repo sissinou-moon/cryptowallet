@@ -4,14 +4,14 @@
 The **Crypto Wallet App** is a mobile application developed with Flutter that allows users to manage their cryptocurrency assets securely. The app supports Ethereum and TON networks, enabling users to create wallets, generate addresses, and perform transactions seamlessly. 
 
 ## Features
-- **Multi-Currency Support**: Supports Ethereum and TON networks.
+- **Multi-Currency Support**: Supports Ethereum and TON networks also USDT and USDC.
 - **Wallet Generation**: Users can generate new wallets with secure mnemonic phrases.
 - **Address Management**: Create and manage multiple cryptocurrency addresses.
 - **Transaction Handling**: Send and receive cryptocurrencies.
-- **Virtual Card Integration**: Users can create virtual credit cards for their transactions.
+- **Virtual Card Integration**: Users can create virtual credit cards for their transactions. (next feature)
 - **User Authentication**: Secure user registration and login via Supabase.
 - **Data Storage**: Secure storage of wallet information using Supabase.
-- **Push Notifications**: Users receive notifications for transaction updates.
+- **Push Notifications**: Users receive notifications for transaction updates. (next feature)
 
 ## Getting Started
 
