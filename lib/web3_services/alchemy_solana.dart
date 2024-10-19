@@ -1,4 +1,9 @@
+import 'dart:convert';
+import 'dart:typed_data';
+import 'package:http/http.dart' as http;
 import 'package:solana/solana.dart';
+import 'package:bip39/bip39.dart' as bip39;
+import 'package:hex/hex.dart';
 
 class SolanaService {
   final RpcClient solanaClient;
@@ -21,4 +26,5 @@ class SolanaService {
       print('Failed to fetch balance: $e');
     }
   }
+
 }

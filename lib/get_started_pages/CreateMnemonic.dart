@@ -8,6 +8,7 @@ import 'package:rive/rive.dart';
 import 'package:test/get_started_pages/WalletProtection.dart';
 import 'package:test/utils/rive_asset.dart';
 import 'package:test/utils/rive_utils.dart';
+import 'package:tip_dialog/tip_dialog.dart';
 
 class CreateMnemonicPage extends StatefulWidget {
   const CreateMnemonicPage({super.key});
@@ -142,7 +143,12 @@ class _CreateMnemonicPageState extends State<CreateMnemonicPage> {
                   Expanded(
                     child: GestureDetector(
                       onTap: () {
-                        if(_continue) Navigator.push(context, MaterialPageRoute(builder: (context) => WalletProtectionPage(mnemanicphrase: mnemonicPhrase,)));
+                        if(_continue) Navigator.push(context, MaterialPageRoute(builder: (context) => Stack(
+                          children: [
+                            WalletProtectionPage(mnemanicphrase: mnemonicPhrase,),
+                            TipDialogContainer(duration: Duration(minutes: 5),),
+                          ],
+                        )));
                       },
                       child: AnimatedContainer(
                         duration: Duration(milliseconds: 300),

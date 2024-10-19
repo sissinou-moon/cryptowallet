@@ -50,6 +50,23 @@ dependencies:
   firebase_storage: 
   encrypt: ^5.0.3
   supabase_flutter: ^2.6.0
+  ed25519_hd_key: ^2.3.0
+  pointycastle: ^3.9.1
+  bip32: ^2.0.0
+  #circul progress 
+  tip_dialog: 
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  pretty_qr_code: ^3.3.0
+  dropdown_button2: ^2.3.9
+  shared_preferences: ^2.3.2
+  tonutils: ^0.5.7
+  onesignal_flutter: ^5.2.5
+  firebase_messaging: ^15.1.3
+  cherry_toast: ^1.11.0
+  lottie: ^3.1.2
+  intl: ^0.19.0
+  shimmer: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -80,6 +97,13 @@ flutter:
     - assets/rive_icons/
     - assets/svg/
     - assets/rive_icons/map_loadingscreen.riv
+    - assets/rive_icons/emoji.riv
+    - assets/icons/home_outline.png
+    - assets/icons/homefill.png
+    - assets/icons/creditCard.png
+    - assets/icons/craditCard_outline.png
+    - assets/icons/receipt_outline.png
+    - assets/icons/receiptfill.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

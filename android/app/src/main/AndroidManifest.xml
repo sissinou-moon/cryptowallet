@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.test">
     <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <!-- Required to fetch data from the internet. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- ... -->
 
     <application
         android:label="test"
@@ -26,6 +29,17 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            
+            <!-- Add this intent-filter for Deep Links -->
+            <intent-filter>
+              <action android:name="android.intent.action.VIEW" />
+              <category android:name="android.intent.category.DEFAULT" />
+              <category android:name="android.intent.category.BROWSABLE" />
+              <!-- Accepts URIs that begin with YOUR_SCHEME://YOUR_HOST -->
+              <data
+                android:scheme="io.supabase.flutterquickstart"
+                android:host="login-callback" />
             </intent-filter>
         </activity>
         <!-- Don't delete the meta-data below.

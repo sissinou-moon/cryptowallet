@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 import 'package:test/main_pages/Home.dart';
+import 'package:test/main_pages/Source.dart';
 import 'package:test/utils/rive_asset.dart';
 import 'package:test/utils/rive_utils.dart';
 
@@ -25,7 +26,7 @@ class _GetstartedPageState extends State<GetstartedPage> {
         onTap: () {
           getstartedAnimation.input!.fire();
           Future.delayed(Duration(milliseconds: 2500), () {
-            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => WalletHomePage(mnemanicphrase: [],)));
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => SourcePage()));
           });
         },
         child: SizedBox(
