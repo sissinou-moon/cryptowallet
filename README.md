@@ -3,8 +3,6 @@
 ## Overview
 The **Crypto Wallet App** is a mobile application developed with Flutter that allows users to manage their cryptocurrency assets securely. The app supports Ethereum and TON networks, enabling users to create wallets, generate addresses, and perform transactions seamlessly. 
 
-![Alt text](crypto_wallet_pic.png)
-
 ## Features
 - **Multi-Currency Support**: Supports Ethereum and TON networks also USDT and USDC.
 - **Wallet Generation**: Users can generate new wallets with secure mnemonic phrases.
