@@ -19,8 +19,8 @@ The **Crypto Wallet App** is a mobile application developed with Flutter that al
 - Flutter SDK
 - Dart SDK
 - Supabase account
-- Marqeta API access for virtual card functionality
 - Alchemy API access for Ethereum and TON blockchain interactions
+- GetBlock.io API access for TON blockchain interactions
 
 ### Installation
 1. **Clone the repository**:
