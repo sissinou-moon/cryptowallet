@@ -57,16 +57,7 @@ The app uses Supabase for user authentication and data storage:
 
 **Documentation**: [Supabase Docs](https://supabase.io/docs)
 
-### Marqeta
-For virtual card creation, the app integrates with the Marqeta API:
-- **Create Virtual Cards**: Users can create virtual credit cards for their wallets.
-- **API Endpoints**:
-    - **Create Card**: `POST /v3/cards`
-    - **Get Card Details**: `GET /v3/cards/{card_id}`
-
-**Documentation**: [Marqeta API Docs](https://developer.marqeta.com/docs)
-
-### Alchemy
+### Alchemy | GetBlock.io
 Alchemy is used to interact with Ethereum and TON blockchains:
 - **Wallet Operations**: Send and receive tokens.
 - **Get Transaction History**: Retrieve past transactions.
